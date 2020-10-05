@@ -1,4 +1,8 @@
-{% if content %}
-    <h1>{{ content.title }}</h1>
-    <p>{{ content.content }}</p>
-{% endif %}
+{% extends 'base.html' %}
+{% block title %}{{ content.title }}{% endblock %}
+{% block content %}
+    {% if content %}
+        <h1>{{ content.title }}</h1>
+        <p>{{ content.content }}</p>
+    {% endif %}
+{% endblock %}
