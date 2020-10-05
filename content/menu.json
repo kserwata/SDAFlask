@@ -4,15 +4,15 @@
         "title": "Strona główna"
     },
     {
-        "url": "articles",
+        "url": "/articles",
         "title": "Wpisy"
     },
     {
-        "url": "about",
+        "url": "/about",
         "title": "O nas"
     },
     {
-        "url": "contact",
+        "url": "/contact",
         "title": "Kontakt"
     }
 ]

@@ -1,4 +1,4 @@
 {
     "title": "Kontakt",
-    "content": "Zawartość kontaktu"
+    "content": "<form action='' method='post'> <input type='text' name='sender' placeholder='nadawca'/><input type='text' name='title' placeholder='tytul' /><textarea name='content' placeholder='zawartosc'></textarea><input type='submit' value='Wyslij'/></form> "
 }
